@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    background-color: whitesmoke
+}
+
+
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 220px;
+    width: 250px;
+    background-color: white;
+}
+
+.underbox{
+    height: 125px;
+    width: 125px;
+    background-color: rgb(225, 220, 220);
+    
+}
+
+.trans{
+    height: 125px;
+    width: 125px;
+    background-color: rgb(203, 104, 225);
+    opacity: 70%;
+}
+
+.rownumber1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+  
+}
+.trans1{
+    transition:  all linear 0.5s;
+}
+.trans1:hover{
+    transform: rotate(45deg);
+}
+
+.trans2{
+    transition:  all linear 0.5s;
+}
+.trans2:hover{
+ transform: scaleY(0.7);
+}
+
+.trans3{
+    transition:  all linear 0.5s;
+}
+.trans3:hover{
+ transform: scalex(0.7);
+}
+
+.trans4{
+    transition:  all linear 0.5s;
+}
+.trans4:hover{
+ transform: scale(2);
+}
+
+.trans5{
+    transition:  all linear 0.5s;
+}
+.trans5:hover{
+ transform: scalex(2);
+}
+
+.rownumber2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+  
+}
+
+.trans6{
+    transition:  all linear 0.5s;
+}
+.trans6:hover{
+ transform: scaleY(3);
+}
+
+.trans7{
+    transition:  all linear 0.5s;
+}
+.trans7:hover{
+ transform: skewx(50deg);
+}
+
+.trans8{
+    transition:  all linear 0.5s;
+}
+.trans8:hover{
+ transform: skewy(50deg);
+}
+
+.trans9{
+    transition:  all linear 0.5s;
+}
+.trans9:hover{
+ transform: translateX(70px) translateY(50px);
+}
+
+.trans10{
+    transition:  all linear 0.5s;
+}
+.trans10:hover{
+ transform: translateX(100px);
+}
+
+
+.rownumber3{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    gap: 2rem;
+  
+}
+
+.trans11{
+    transition:  all linear 0.5s;
+}
+.trans11:hover{
+ transform: translatey(50px);
+}
+
+.trans12{
+    transition:  all linear 0.5s;
+}
+.trans12:hover{
+ transform:skewy(45deg) scale(2) translateX(30px);
+}
+
+
+.rownumber4{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    gap: 2rem;
+  
+}
+
+.trans13{
+    transition:  all linear 0.5s;
+}
+.trans13:hover{
+ transform:  perspective(130px) rotatex(40deg);
+}
+
+.trans14{
+    transition:  all linear 0.5s;
+}
+.trans14:hover{
+ transform:  perspective(150px) rotateY(60deg);
+}
+
+
+.rownumber5{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+  
+}
+
+.trans15{
+    transition:  all linear 0.5s;
+    transform-origin: right top;
+}
+.trans15:hover{
+ transform:  rotate(45deg);
+}
+
+.trans16{
+    transition:  all linear 0.5s;
+    transform-origin: left bottom;
+}
+.trans16:hover{
+ transform:  rotate(45deg);
+}
+
+.trans17{
+    transition:  all linear 0.5s;
+   transform-origin: bottom;
+}
+.trans17:hover{
+ transform:  perspective(300px) rotateX(50deg);
+}
+
+.trans18{
+    transition:  all linear 0.5s;
+   transform-origin: top;
+}
+.trans18:hover{
+ transform:  perspective(300px) rotateX(70deg);
+}
+
+.trans19{
+    transition:  all linear 0.5s;
+   transform-origin: left;
+}
+.trans19:hover{
+ transform:  perspective(300px) rotatey(50deg);
+}
+
+.rownumber6{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+  
+}
+
+.trans20{
+    transition:  all linear 0.5s;
+   transform-origin: right;
+}
+.trans20:hover{
+ transform:  perspective(300px) rotatey(70deg);
+}
+
+.trans21{
+    transition:  all linear 0.5s;
+   transform-origin: right top;
+}
+.trans21:hover{
+ transform:  scale(2);
+}
+
+.trans22{
+    transition:  all linear 0.5s;
+   transform-origin: left bottom;
+}
+.trans22:hover{
+ transform:  scale(2);
+}
+
+.trans23{
+    transition:  all linear 0.5s;
+   transform-origin: right;
+}
+.trans23:hover{
+ transform:  scaleX(1.7);
+}
+
+.trans24{
+    transition:  all linear 0.5s;
+   transform-origin: left;
+}
+.trans24:hover{
+ transform:  scaleX(1.7);
+}
+
+
+.rownumber7{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    gap: 2rem;
+    margin-bottom: 9rem;
+}
+
+.trans25{
+    transition:  all linear 0.5s;
+   transform-origin: top;
+}
+.trans25:hover{
+ transform:  scaley(2);
+}
+
+
+.trans26{
+    transition:  all linear 0.5s;
+   transform-origin: bottom;
+}
+.trans26:hover{
+ transform:  scaley(2);
+}
